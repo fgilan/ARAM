@@ -1,49 +1,45 @@
+import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
 import csv
 import re
-import time
 
-names = ["momomomo", "Pootis144", "Fgilan", "yhn Moyase"]
-driver = webdriver.Chrome()
-for name in names:
-    url = "http://na.op.gg/summoner/userName=" + name
-    #Open webpage
-    driver.get(url)
-    #Set language to English
-    driver.find_element_by_class_name("gnb-btn-setting").click()
-    time.sleep(2)
-    driver.find_element_by_xpath('//li[@data-locale="en_US"]').click()
-    driver.find_element_by_class_name("setting__button").click()
-    time.sleep(2)
-    #Update
-    driver.find_element_by_id("SummonerRefreshButton").click()
-    time.sleep(5)
-    #Click all load more buttons
-    while True:
-        try:
-            x = driver.find_element_by_class_name("GameMoreButton")
-            x.find_element_by_class_name("Button").click()
-            time.sleep(4)
-        except:
-            break
-
+#profiles to get data from
+names = ["momomomo"]
+#list of games already read
+game_ids = set()
+#list of summoners already checked
+used_names = set()
+#counter to stop
+n_max = 1000
+n_current = 0
+while n_current < n_max:
+    print(n_current)
+    n_current += 1
+    current_name = names.pop()
+    used_names.add(current_name)
+    url = "http://na.op.gg/summoner/userName=" + current_name
+    r = requests.get(url)
     #Pass html to BeautifulSoup
-    html = driver.page_source.encode('utf-8')
-    soup = BeautifulSoup(html, 'lxml')
+    soup = BeautifulSoup(r.text, 'lxml')
     #Get source code for all games
     games = soup.find_all(name='div', class_ = 'GameItemWrap')
 
     #open csv file
-    with open('game_data.csv', 'a') as file:
+    with open('game_data_2.csv', 'a') as file:
         writer = csv.writer(file, delimiter=',', lineterminator='\n')
         for game in games:
-            #Store info for game in order (W/L, allies, enemies)
-            info = []
             #Check if GameType is ARAM
             game_type = game.find(class_ = 'GameType').string
             if 'ARAM' not in game_type:
                 continue
+            #get game id and make sure it is not duplicate
+            game_id = game.find('div')['data-game-id']
+            if game_id in game_ids:
+                continue
+            else:
+                game_ids.add(game_id)
+            #Store info for game in order (W/L, time,  allies, enemies)
+            info = []
             #Victory or Defeat
             game_result = game.find(class_ = 'GameResult').string
             game_result = re.sub('\n|\t', '', game_result)
@@ -64,11 +60,18 @@ for name in names:
                 enemy = team1
             #Ally Champion list
             for summoner in ally.find_all(class_ = 'Summoner'):
+                #get champion of summoner
                 info.append(summoner.find(class_ = re.compile('Image16')).string)
+                #get name of summoner and add to list for scraping
+                name = summoner.find(class_ = 'SummonerName').find('a').string
+                name = str(name)
+                if name not in used_names:
+                    names.append(re.sub(' ', '', name))
             #Enemy Champion list
             for summoner in enemy.find_all(class_ = 'Summoner'):
                 info.append(summoner.find(class_ = re.compile('Image16')).string)
+                name = summoner.find(class_ = 'SummonerName').find('a').string
+                name = str(name)
+                if name not in used_names:
+                    names.append(re.sub(' ', '', name))
             writer.writerow(info)
-#Close WebDriver
-driver.close()
-driver.quit()

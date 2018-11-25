@@ -6,30 +6,56 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
-#get up to date list of champions
-champ_list = ['Aatrox', 'Ahri', 'Akali', 'Alistar', 'Amumu', 'Anivia',
-'Annie', 'Ashe', 'Aurelion Sol', 'Azir', 'Bard', 'Blitzcrank', 'Brand',
-'Braum', 'Caitlyn', 'Camille', 'Cassiopeia', "Cho'Gath", 'Corki', 'Darius',
-'Diana', 'Dr. Mundo', 'Draven', 'Ekko', 'Elise', 'Evelynn', 'Ezreal',
-'Fiddlesticks', 'Fiora', 'Fizz', 'Galio', 'Gangplank', 'Garen', 'Gnar',
-'Gragas', 'Graves', 'Hecarim', 'Heimerdinger', 'Illaoi', 'Irelia', 'Ivern',
-'Janna', 'Jarvan IV', 'Jax', 'Jayce', 'Jhin', 'Jinx', "Kai'Sa", 'Kalista',
-'Karma', 'Karthus', 'Kassadin', 'Katarina', 'Kayle', 'Kayn', 'Kennen',
-"Kha'Zix", 'Kindred', 'Kled', "Kog'Maw", 'LeBlanc', 'Lee Sin', 'Leona',
-'Lissandra', 'Lucian', 'Lulu', 'Lux', 'Malphite', 'Malzahar', 'Maokai',
-'Master Yi', 'Miss Fortune', 'Mordekaiser', 'Morgana', 'Nami', 'Nasus',
-'Nautilus', 'Nidalee', 'Nocturne', 'Nunu & Willump', 'Olaf', 'Orianna',
-'Ornn', 'Pantheon','Poppy','Pyke','Quinn','Rakan','Rammus',"Rek'Sai",
-'Renekton','Rengar','Riven','Rumble','Ryze','Sejuani','Shaco','Shen',
-'Shyvana','Singed','Sion','Sivir','Skarner','Sona','Soraka','Swain',
-'Syndra','Tahm Kench', 'Taliyah', 'Talon','Taric','Teemo','Thresh',
-'Tristana','Trundle','Tryndamere','Twisted Fate','Twitch','Udyr',
-'Urgot','Varus','Vayne','Veigar',"Vel'Koz",'Vi','Viktor','Vladimir','Volibear',
-'Warwick','Wukong','Xayah','Xerath','Xin Zhao','Yasuo','Yorick','Zac',
-'Zed','Ziggs','Zilean','Zoe','Zyra']
+#dictionary of champions and their attributes
+champ_list = {'Aatrox': 'Juggernaut', 'Ahri': 'Burst', 'Akali': 'Assassin',
+ 'Alistar': 'Vanguard', 'Amumu': 'Vanguard', 'Anivia': 'Battlemage',
+ 'Annie': 'Burst', 'Ashe': 'Marksman', 'Aurelion Sol': 'Battlemage',
+ 'Azir': 'Specialist', 'Bard': 'Catcher', 'Blitzcrank': 'Catcher',
+ 'Brand': 'Burst', 'Braum': 'Warden', 'Caitlyn': 'Marksman',
+ 'Camille': 'Diver', 'Cassiopeia': 'Battlemage', "Cho'Gath": 'Specialist',
+ 'Corki': 'Marksman', 'Darius': 'Juggernaut', 'Diana': 'Diver',
+ 'Dr. Mundo': 'Juggernaut', 'Draven': 'Marksman', 'Ekko': 'Assassin',
+ 'Elise': 'Diver', 'Evelynn': 'Assassin', 'Ezreal': 'Marksman',
+ 'Fiddlesticks': 'Specialist', 'Fiora': 'Skirmisher', 'Fizz': 'Assassin',
+ 'Galio': 'Warden', 'Gangplank': 'Specialist', 'Garen': 'Juggernaut',
+ 'Gnar': 'Specialist', 'Gragas': 'Vanguard', 'Graves': 'Specialist',
+ 'Hecarim': 'Diver', 'Heimerdinger': 'Specialist', 'Illaoi': 'Juggernaut',
+ 'Irelia': 'Diver', 'Ivern': 'Catcher', 'Janna': 'Enchanter', 'Jarvan IV': 'Diver',
+ 'Jax': 'Skirmisher', 'Jayce': 'Artillery', 'Jhin': 'Marksman', 'Jinx': 'Marksman',
+ "Kai'Sa": 'Marksman', 'Kalista': 'Marksman', 'Karma': 'Enchanter',
+ 'Karthus': 'Battlemage', 'Kassadin': 'Assassin', 'Katarina': 'Assassin',
+ 'Kayle': 'Specialist', 'Kayn': 'Skirmisher', 'Kennen': 'Specialist',
+ "Kha'Zix": 'Assassin', 'Kindred': 'Marksman', 'Kled': 'Diver', "Kog'Maw": 'Marksman',
+ 'LeBlanc': 'Burst', 'Lee Sin': 'Diver', 'Leona': 'Vanguard', 'Lissandra': 'Burst',
+ 'Lucian': 'Marksman', 'Lulu': 'Enchanter', 'Lux': 'Burst', 'Malphite': 'Vanguard',
+ 'Malzahar': 'Battlemage', 'Maokai': 'Vanguard', 'Master Yi': 'Skirmisher',
+ 'Miss Fortune': 'Marksman', 'Mordekaiser': 'Juggernaut', 'Morgana': 'Catcher',
+ 'Nami': 'Enchanter', 'Nasus': 'Juggernaut', 'Nautilus': 'Vanguard',
+ 'Nidalee': 'Specialist', 'Nocturne': 'Assassin', 'Nunu & Willump': 'Warden', 'Olaf': 'Diver',
+ 'Orianna': 'Burst', 'Ornn': 'Vanguard', 'Pantheon': 'Diver', 'Poppy': 'Warden',
+ 'Pyke': 'Assassin', 'Quinn': 'Specialist', 'Rakan': 'Catcher', 'Rammus': 'Vanguard',
+ "Rek'Sai": 'Diver', 'Renekton': 'Diver', 'Rengar': 'Diver', 'Riven': 'Skirmisher',
+ 'Rumble': 'Battlemage', 'Ryze': 'Battlemage', 'Sejuani': 'Vanguard',
+ 'Shaco': 'Assassin', 'Shen': 'Warden', 'Shyvana': 'Juggernaut',
+ 'Singed': 'Specialist', 'Sion': 'Vanguard', 'Sivir': 'Marksman',
+ 'Skarner': 'Diver', 'Sona': 'Enchanter', 'Soraka': 'Enchanter',
+ 'Swain': 'Battlemage', 'Syndra': 'Burst', 'Tahm Kench': 'Warden',
+ 'Taliyah': 'Battlemage', 'Talon': 'Assassin', 'Taric': 'Enchanter',
+ 'Teemo': 'Specialist', 'Thresh': 'Catcher', 'Tristana': 'Marksman',
+ 'Trundle': 'Juggernaut', 'Tryndamere': 'Skirmisher', 'Twisted Fate': 'Burst',
+ 'Twitch': 'Marksman', 'Udyr': 'Juggernaut', 'Urgot': 'Juggernaut',
+ 'Varus': 'Marksman', 'Vayne': 'Marksman', 'Veigar': 'Burst',
+ "Vel'Koz": 'Artillery', 'Vi': 'Diver', 'Viktor': 'Battlemage',
+ 'Vladimir': 'Battlemage', 'Volibear': 'Juggernaut', 'Warwick': 'Diver',
+ 'Wukong': 'Diver', 'Xayah': 'Marksman', 'Xerath': 'Artillery',
+ 'Xin Zhao': 'Diver', 'Yasuo': 'Skirmisher', 'Yorick': 'Juggernaut',
+ 'Zac': 'Vanguard', 'Zed': 'Assassin', 'Ziggs': 'Artillery',
+ 'Zilean': 'Specialist', 'Zoe': 'Burst', 'Zyra': 'Catcher'}
+attribute_list = ['Enchanter','Catcher','Juggernaut','Diver','Burst',
+'Battlemage','Artillery','Marksman','Assassin','Skirmisher','Vanguard',
+'Warden','Specialist']
 
-
-df = pd.read_csv("game_data.csv", encoding='utf-8')
+df = pd.read_csv("game_data_2.csv", encoding='utf-8')
 #encode win/losses
 win_lose = df.iloc[:,0].values
 le = LabelEncoder()
@@ -39,35 +65,46 @@ y2 = df.iloc[:,1].values
 #champion data
 champs = df.iloc[:,2:].values
 
-#convert samples (vector of length 10) into one-hot vector
-#[ally 5][enemy 5]
+#convert samples (vector of length 10) into vector of attribute counts
+#[ally 13 attributes][enemy 13 attributes]
 def vectorize(sample):
-    x = [0] * (len(champ_list) * 2)
+    x = [0] * (len(attribute_list) * 2)
     #ally champions
     for champ in sample[0:5]:
-        idx = champ_list.index(champ)
-        x[idx] = 1
+        attribute = champ_list[champ]
+        x[attribute_list.index(attribute)] += 1
     #enemy champions
     for champ in sample[5:]:
-        idx = champ_list.index(champ)
-        x[len(champ_list) + idx] = 1
-    return x
+        attribute = champ_list[champ]
+        x[len(attribute_list) + attribute_list.index(attribute)] += 1
+    return np.array(x)
+
+#predict
+def predict_outcome(champs):
+    input = vectorize(champs).reshape(1,-1)
+    outcome = log_reg.predict(input)[0]
+    length = lin_reg.predict(input)[0]
+    if outcome == 0:
+        print("Defeat")
+    else:
+        print("Victory")
+    print("{} m {} s".format(length//60, length%60))
 
 #vectorize input data
 X = []
-for champ in champs:
-    X.append(vectorize(champ))
+for sample in champs:
+    X.append(vectorize(sample))
 X = np.array(X)
 #Logisitic Regression on wins/losses
 #split into train and test sets
 X_train, X_test, y1_train, y1_test = train_test_split(X, y1,
-                                                    test_size = 0.1,
+                                                    test_size = 0.2,
                                                     stratify = y1,
                                                     random_state = 1)
-lr = LogisticRegression(random_state = 1)
-lr.fit(X_train, y1_train)
-print('W/L Training Accuracy: %.3f' % lr.score(X_train, y1_train))
-print('W/L Test Accuracy: %.3f' % lr.score(X_test, y1_test))
+log_reg = LogisticRegression(random_state=1)
+log_reg.fit(X_train, y1_train)
+print('W/L Training Accuracy: %.3f' % log_reg.score(X_train, y1_train))
+print('W/L Test Accuracy: %.3f' % log_reg.score(X_test, y1_test))
 #Linear regression on game Length
 X_train, X_test, y2_train, y2_test = train_test_split(X, y2,
                                                     test_size=0.1,
