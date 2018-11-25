@@ -40,21 +40,17 @@ y2 = df.iloc[:,1].values
 champs = df.iloc[:,2:].values
 
 #convert samples (vector of length 10) into one-hot vector
-#[player 1][ally 4][enemy 5]
+#[ally 5][enemy 5]
 def vectorize(sample):
-    x = [0] * (len(champ_list) * 3)
-    #player champion
-    player_champion = sample[0]
-    idx = champ_list.index(player_champion)
-    x[idx] = 1
+    x = [0] * (len(champ_list) * 2)
     #ally champions
-    for champ in sample[1:5]:
+    for champ in sample[0:5]:
         idx = champ_list.index(champ)
-        x[len(champ_list) + idx] = 1
+        x[idx] = 1
     #enemy champions
     for champ in sample[5:]:
         idx = champ_list.index(champ)
-        x[len(champ_list) * 2 + idx] = 1
+        x[len(champ_list) + idx] = 1
     return x
 
 #vectorize input data
@@ -68,7 +64,7 @@ X_train, X_test, y1_train, y1_test = train_test_split(X, y1,
                                                     test_size = 0.1,
                                                     stratify = y1,
                                                     random_state = 1)
-lr = LogisticRegression(C=100, random_state = 1)
+lr = LogisticRegression(random_state = 1)
 lr.fit(X_train, y1_train)
 print('W/L Training Accuracy: %.3f' % lr.score(X_train, y1_train))
 print('W/L Test Accuracy: %.3f' % lr.score(X_test, y1_test))

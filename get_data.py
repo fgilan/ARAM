@@ -53,11 +53,6 @@ for name in names:
             game_length = re.sub('m|s', '', game_length)
             min, sec = game_length.split()
             info.append(int(min) * 60 + int(sec))
-            #Player Champion
-            summoner_requester = game.find(class_ = 'Summoner Requester')
-            player_champion = summoner_requester.find(class_ =
-                                                      re.compile('Image16')).string
-            info.append(player_champion)
             #Get both teams
             team1, team2 = game.find_all(class_ = 'Team')
             #Find out which is friend/enemy by checking for Summoner Requester
@@ -69,9 +64,7 @@ for name in names:
                 enemy = team1
             #Ally Champion list
             for summoner in ally.find_all(class_ = 'Summoner'):
-                #make sure it is not summoner requester
-                if summoner['class'][1] == '':
-                    info.append(summoner.find(class_ = re.compile('Image16')).string)
+                info.append(summoner.find(class_ = re.compile('Image16')).string)
             #Enemy Champion list
             for summoner in enemy.find_all(class_ = 'Summoner'):
                 info.append(summoner.find(class_ = re.compile('Image16')).string)

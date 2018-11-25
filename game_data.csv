@@ -1,11 +1,16 @@
+Victory,1301,Braum,Sona,Janna,Jayce,Kennen,Lux,Nasus,Ziggs,Ekko,Poppy
+Victory,971,Morgana,Nasus,Garen,Jarvan IV,Nidalee,Lucian,Orianna,Soraka,Illaoi,Blitzcrank
+Victory,1383,Graves,Hecarim,Lucian,Nasus,Xerath,Katarina,Zilean,Kog'Maw,Cho'Gath,Miss Fortune
+Victory,898,Volibear,Annie,Gangplank,Miss Fortune,Wukong,Veigar,Lee Sin,Malzahar,Ezreal,Diana
+Victory,1133,Viktor,Irelia,Urgot,Kayle,Kennen,Janna,Nami,Draven,Leona,Anivia
 Defeat,1128,Annie,Kled,Corki,Swain,Kalista,Shaco,Vayne,Kog'Maw,Vel'Koz,Nautilus
 Defeat,1372,Alistar,Darius,Azir,Urgot,Brand,Cho'Gath,Nidalee,Maokai,Soraka,Illaoi
 Defeat,899,Caitlyn,Jayce,Jarvan IV,Zac,Akali,Vel'Koz,Orianna,Aatrox,Renekton,Urgot
 Defeat,1525,Volibear,Orianna,Galio,Brand,Garen,Viktor,Gangplank,Kayle,Fiddlesticks,Ornn
-Victory,1010,Lux,Zyra,Zilean,Malphite,Taric,Heimerdinger,Ornn,Cassiopeia,Zed,Gangplank
+Victory,1010,Zyra,Zilean,Lux,Malphite,Taric,Heimerdinger,Ornn,Cassiopeia,Zed,Gangplank
 Victory,1035,Alistar,Jayce,Nunu & Willump,Sona,Yorick,Braum,Xerath,Katarina,Jhin,Anivia
 Defeat,736,Viktor,Twitch,Vi,Rengar,Soraka,Ornn,Ziggs,Lux,Pantheon,Zoe
-Victory,880,Sivir,Rakan,Galio,Sion,Xayah,Orianna,Lulu,Xin Zhao,Zyra,Tristana
+Victory,880,Rakan,Sivir,Galio,Sion,Xayah,Orianna,Lulu,Xin Zhao,Zyra,Tristana
 Defeat,1125,Alistar,Lissandra,Twitch,Xayah,Soraka,Jhin,Graves,Pantheon,Wukong,Teemo
 Defeat,554,Aurelion Sol,Morgana,Cho'Gath,Urgot,Orianna,Jhin,Graves,Warwick,Amumu,Fiddlesticks
 Victory,1044,Brand,Varus,Heimerdinger,Kai'Sa,Rengar,Cassiopeia,Vayne,Annie,Jax,Ahri
@@ -23,38 +28,38 @@ Defeat,974,Tristana,Akali,Veigar,Malzahar,Kalista,Varus,Galio,Tahm Kench,LeBlanc
 Victory,927,Nami,Nocturne,Sion,Cho'Gath,Varus,Xerath,Vladimir,Ezreal,Amumu,Lux
 Defeat,1644,Urgot,Vel'Koz,Xayah,Udyr,Corki,Ezreal,Janna,Zilean,Dr. Mundo,Karma
 Victory,905,Camille,Thresh,Nautilus,Sivir,Jayce,Zilean,Twitch,Udyr,Talon,Morgana
-Victory,958,Darius,Kindred,Pyke,Vel'Koz,Soraka,Orianna,Gragas,Morgana,Lulu,Xayah
-Victory,1199,Maokai,Fiddlesticks,Jinx,Dr. Mundo,Shyvana,Ezreal,Twitch,Veigar,Illaoi,Karma
-Victory,1709,Vladimir,Blitzcrank,Cho'Gath,Graves,Akali,Zed,Viktor,Ekko,Garen,Karthus
-Defeat,718,Thresh,Rakan,Udyr,Malzahar,Caitlyn,Mordekaiser,Shyvana,Kindred,Cassiopeia,Blitzcrank
-Defeat,1089,Viktor,Zilean,Tristana,Ziggs,Fiddlesticks,Karma,Jhin,Xayah,Blitzcrank,Braum
-Defeat,906,Vladimir,Kayn,Jax,Ahri,Caitlyn,Riven,Brand,Vel'Koz,Akali,Gangplank
-Victory,1339,Ryze,Leona,Jinx,Soraka,Master Yi,Lee Sin,Thresh,Kennen,Sona,Zoe
-Victory,791,Miss Fortune,Janna,Twisted Fate,Fiddlesticks,Garen,Ezreal,Kayle,Azir,Nautilus,Sion
-Defeat,969,Cassiopeia,Corki,Annie,Cho'Gath,Dr. Mundo,Gragas,Shaco,Sivir,Heimerdinger,Nami
-Victory,1282,Ryze,Diana,Twitch,Lee Sin,Yasuo,Ezreal,Blitzcrank,Master Yi,LeBlanc,Jhin
-Defeat,1254,Sivir,Janna,Nasus,Yasuo,Swain,Kayn,Fizz,Teemo,Miss Fortune,Sion
-Defeat,1534,Viktor,Twisted Fate,Zilean,Wukong,Soraka,Vel'Koz,Syndra,Warwick,Shaco,Garen
-Victory,1423,Malzahar,Brand,Shaco,Wukong,Xayah,Thresh,Annie,Tristana,Twisted Fate,Blitzcrank
+Victory,958,Kindred,Darius,Pyke,Vel'Koz,Soraka,Orianna,Gragas,Morgana,Lulu,Xayah
+Victory,1199,Fiddlesticks,Maokai,Jinx,Dr. Mundo,Shyvana,Ezreal,Twitch,Veigar,Illaoi,Karma
+Victory,1709,Blitzcrank,Cho'Gath,Vladimir,Graves,Akali,Zed,Viktor,Ekko,Garen,Karthus
+Defeat,718,Rakan,Thresh,Udyr,Malzahar,Caitlyn,Mordekaiser,Shyvana,Kindred,Cassiopeia,Blitzcrank
+Defeat,1089,Zilean,Viktor,Tristana,Ziggs,Fiddlesticks,Karma,Jhin,Xayah,Blitzcrank,Braum
+Defeat,906,Kayn,Vladimir,Jax,Ahri,Caitlyn,Riven,Brand,Vel'Koz,Akali,Gangplank
+Victory,1339,Leona,Ryze,Jinx,Soraka,Master Yi,Lee Sin,Thresh,Kennen,Sona,Zoe
+Victory,791,Janna,Miss Fortune,Twisted Fate,Fiddlesticks,Garen,Ezreal,Kayle,Azir,Nautilus,Sion
+Defeat,969,Corki,Cassiopeia,Annie,Cho'Gath,Dr. Mundo,Gragas,Shaco,Sivir,Heimerdinger,Nami
+Victory,1282,Diana,Twitch,Ryze,Lee Sin,Yasuo,Ezreal,Blitzcrank,Master Yi,LeBlanc,Jhin
+Defeat,1254,Janna,Sivir,Nasus,Yasuo,Swain,Kayn,Fizz,Teemo,Miss Fortune,Sion
+Defeat,1534,Twisted Fate,Zilean,Viktor,Wukong,Soraka,Vel'Koz,Syndra,Warwick,Shaco,Garen
+Victory,1423,Brand,Malzahar,Shaco,Wukong,Xayah,Thresh,Annie,Tristana,Twisted Fate,Blitzcrank
 Defeat,852,Rakan,Veigar,Twisted Fate,Xayah,Braum,Brand,Kog'Maw,Pyke,Miss Fortune,Cassiopeia
 Victory,1719,Ryze,Irelia,Amumu,Katarina,Rammus,Corki,Cho'Gath,Wukong,Twisted Fate,Syndra
 Defeat,1358,Xayah,Rakan,Leona,Azir,Rammus,Wukong,Blitzcrank,Viktor,Taric,Nidalee
 Victory,1748,Zyra,Kai'Sa,Kayn,Ziggs,Camille,Ekko,Orianna,Caitlyn,Alistar,Teemo
-Defeat,1217,Ornn,Brand,Ahri,Garen,Twisted Fate,Lucian,Kalista,Kennen,Katarina,Varus
+Defeat,1217,Brand,Ornn,Ahri,Garen,Twisted Fate,Lucian,Kalista,Kennen,Katarina,Varus
 Defeat,961,Ryze,Draven,Varus,Yasuo,Singed,Garen,Zyra,Maokai,Leona,Teemo
 Victory,1287,Jhin,Janna,Shyvana,Vi,Garen,Twitch,Rammus,Nasus,Tristana,Ryze
-Defeat,576,Janna,Twisted Fate,Karma,Syndra,Lulu,Kog'Maw,Kai'Sa,Master Yi,Volibear,Maokai
-Victory,870,Dr. Mundo,Fiddlesticks,Malphite,Kai'Sa,Camille,Katarina,Teemo,Annie,Braum,Ziggs
+Defeat,576,Twisted Fate,Janna,Karma,Syndra,Lulu,Kog'Maw,Kai'Sa,Master Yi,Volibear,Maokai
+Victory,870,Fiddlesticks,Dr. Mundo,Malphite,Kai'Sa,Camille,Katarina,Teemo,Annie,Braum,Ziggs
 Victory,1452,Sion,Dr. Mundo,Cho'Gath,Sivir,Twitch,Katarina,Pyke,Soraka,Caitlyn,Lux
 Victory,1651,Malzahar,Xayah,Miss Fortune,Viktor,Kog'Maw,Ziggs,Anivia,Kassadin,Riven,Rengar
 Victory,680,Sion,Blitzcrank,Xin Zhao,Jinx,Diana,Morgana,Janna,Bard,Xerath,Sejuani
 Defeat,1222,Maokai,Draven,Kassadin,Corki,Volibear,Alistar,Wukong,Tristana,Kalista,Twitch
 Defeat,905,Zyra,Lee Sin,Azir,Shaco,Graves,Fiddlesticks,Tristana,Sona,Zoe,Jinx
-Defeat,2032,Taric,Pyke,Darius,Miss Fortune,Jayce,Nasus,Lux,Thresh,Malzahar,Akali
+Defeat,2032,Pyke,Taric,Darius,Miss Fortune,Jayce,Nasus,Lux,Thresh,Malzahar,Akali
 Defeat,1240,Ryze,Rakan,Zyra,Fiddlesticks,Soraka,Brand,Sion,Teemo,Graves,Yasuo
-Defeat,1047,Cho'Gath,Graves,Vel'Koz,Jinx,Twitch,Caitlyn,Rengar,Morgana,Ezreal,Nautilus
+Defeat,1047,Graves,Cho'Gath,Vel'Koz,Jinx,Twitch,Caitlyn,Rengar,Morgana,Ezreal,Nautilus
 Victory,1173,Graves,Corki,Lux,Malphite,Kayle,Miss Fortune,Orianna,Leona,Nami,Karthus
-Defeat,928,Twitch,Galio,Trundle,Sona,Vi,Kog'Maw,Graves,Nidalee,Zilean,Jhin
+Defeat,928,Galio,Twitch,Trundle,Sona,Vi,Kog'Maw,Graves,Nidalee,Zilean,Jhin
 Victory,914,Thresh,Ahri,Cassiopeia,Illaoi,Brand,Rengar,Shaco,Lucian,Shen,Vladimir
 Defeat,1018,Cho'Gath,Mordekaiser,Cassiopeia,Kassadin,Riven,Zed,Anivia,Brand,Garen,Leona
 Victory,1070,Braum,Jax,Master Yi,Ekko,Vel'Koz,Riven,Kha'Zix,Nami,Galio,Karthus
@@ -64,16 +69,16 @@ Victory,884,Viktor,Jinx,Karthus,Kayn,Sivir,Janna,Kassadin,Draven,Shyvana,Master 
 Defeat,1190,Viktor,Lee Sin,Zilean,Ashe,Vel'Koz,Graves,Sona,Nautilus,Jinx,Jhin
 Victory,952,Maokai,Heimerdinger,Darius,Annie,Riven,Cho'Gath,Diana,Lee Sin,Vi,Kalista
 Victory,1080,Jinx,Urgot,Sona,Ashe,Zilean,Azir,Lulu,Braum,Rengar,Brand
-Defeat,1413,Jinx,Malphite,Vayne,Swain,Lucian,Olaf,Jax,Aurelion Sol,LeBlanc,Teemo
+Defeat,1413,Malphite,Vayne,Jinx,Swain,Lucian,Olaf,Jax,Aurelion Sol,LeBlanc,Teemo
 Defeat,1416,Jax,Cho'Gath,Singed,Wukong,Soraka,Karma,Rumble,Braum,Heimerdinger,Xayah
-Defeat,1513,Cassiopeia,Kog'Maw,Miss Fortune,Illaoi,Rammus,Lulu,Ashe,Teemo,Taliyah,Sivir
+Defeat,1513,Kog'Maw,Cassiopeia,Miss Fortune,Illaoi,Rammus,Lulu,Ashe,Teemo,Taliyah,Sivir
 Victory,1169,Nautilus,Aurelion Sol,Caitlyn,Sona,Twitch,Yasuo,Zoe,Miss Fortune,Morgana,Talon
-Defeat,1732,Katarina,Darius,Lulu,Sion,Twisted Fate,Lux,Jarvan IV,LeBlanc,Jhin,Ivern
+Defeat,1732,Darius,Katarina,Lulu,Sion,Twisted Fate,Lux,Jarvan IV,LeBlanc,Jhin,Ivern
 Defeat,1309,Anivia,Diana,Poppy,Irelia,Kai'Sa,Gangplank,Rakan,Kennen,Camille,Amumu
 Victory,1324,Alistar,Ashe,Fizz,Singed,Vel'Koz,Ryze,Gangplank,Soraka,Darius,Rumble
 Victory,1815,Cho'Gath,Nunu & Willump,Varus,Annie,Heimerdinger,Ryze,Kassadin,Malzahar,Thresh,Lucian
-Victory,999,Kog'Maw,Pyke,Gangplank,Taric,Shen,Kayle,Tahm Kench,Rengar,Kai'Sa,Nami
-Victory,1121,Tristana,Gragas,Draven,Teemo,Heimerdinger,Nunu & Willump,Annie,Galio,Hecarim,Karthus
+Victory,999,Pyke,Kog'Maw,Gangplank,Taric,Shen,Kayle,Tahm Kench,Rengar,Kai'Sa,Nami
+Victory,1121,Gragas,Tristana,Draven,Teemo,Heimerdinger,Nunu & Willump,Annie,Galio,Hecarim,Karthus
 Defeat,836,Rammus,Draven,Kassadin,Diana,Twitch,Sejuani,Sivir,Ekko,Zed,Gangplank
 Defeat,1609,Ornn,Singed,Lux,Zilean,Fiora,Ahri,Kayn,Draven,Darius,Katarina
 Defeat,1048,Kalista,Cassiopeia,Syndra,Lucian,Nunu & Willump,Master Yi,Jhin,Caitlyn,Vi,Kayle
@@ -83,3 +88,269 @@ Victory,1038,Braum,Twitch,Morgana,Zed,Xayah,Lissandra,Bard,Lucian,Kai'Sa,Heimerd
 Victory,1207,Kog'Maw,Ziggs,Karthus,Kassadin,Draven,Aurelion Sol,Diana,Nautilus,Xerath,Karma
 Defeat,1159,Ryze,Twisted Fate,Zilean,Pyke,Nautilus,Ashe,Braum,Sivir,Karthus,Evelynn
 Victory,1599,Sivir,Jhin,Poppy,Kai'Sa,Zilean,Miss Fortune,Soraka,Zed,Kha'Zix,Ahri
+Victory,1048,Ahri,Twisted Fate,Kai'Sa,Azir,Miss Fortune,Pyke,Blitzcrank,Darius,Kalista,Jinx
+Victory,1217,Ashe,Zilean,Vayne,Illaoi,Nami,Aurelion Sol,Wukong,Akali,Fiddlesticks,Jarvan IV
+Victory,949,Lux,Galio,Vel'Koz,Riven,Orianna,Blitzcrank,Syndra,Ryze,Annie,Vi
+Defeat,1143,Zoe,Taliyah,Lux,Xayah,Kha'Zix,Thresh,Fizz,Jinx,Mordekaiser,Ahri
+Victory,949,Thresh,Annie,Varus,Aatrox,Sona,Vayne,Teemo,Dr. Mundo,Zed,Kog'Maw
+Defeat,1137,Taliyah,Soraka,Shen,Ryze,Thresh,Yasuo,Ezreal,Kai'Sa,Swain,Braum
+Defeat,1018,Ryze,Darius,Diana,Sejuani,Morgana,Xerath,Vayne,Leona,Rumble,Dr. Mundo
+Victory,1223,Jhin,Quinn,Zac,Bard,Caitlyn,Akali,Ekko,Sion,Orianna,Draven
+Defeat,1460,Skarner,Zilean,Irelia,Xerath,Cho'Gath,Jax,Kassadin,Illaoi,Aurelion Sol,Fizz
+Victory,1325,Ziggs,Veigar,Swain,Soraka,Ashe,Ezreal,Nami,Varus,Karthus,Lucian
+Defeat,744,Ryze,Twisted Fate,Rengar,Darius,LeBlanc,Alistar,Thresh,Twitch,Kayle,Sona
+Victory,797,Morgana,Nunu & Willump,Diana,Volibear,Leona,Quinn,Tristana,Xerath,Pyke,Yasuo
+Defeat,1323,Sivir,Xin Zhao,Twitch,Kassadin,Zyra,Aurelion Sol,Blitzcrank,Annie,Karma,Jhin
+Victory,1132,Sivir,Zyra,LeBlanc,Irelia,Garen,Kha'Zix,Thresh,Brand,Anivia,Vel'Koz
+Defeat,1595,Veigar,Zyra,Jayce,Zac,Malphite,Gnar,Xerath,Singed,Rengar,Kalista
+Victory,1236,Singed,Taric,Brand,Tryndamere,Taliyah,Caitlyn,Jhin,Malphite,Xin Zhao,Katarina
+Victory,1398,Ryze,Jax,Ornn,Illaoi,Viktor,Tristana,Twisted Fate,Jarvan IV,Nidalee,Zyra
+Defeat,1549,Jinx,Vladimir,Braum,Lissandra,Jax,Viktor,Shaco,Ezreal,Caitlyn,Poppy
+Defeat,883,Cho'Gath,Sion,Janna,Garen,Ahri,Quinn,Sona,Vayne,Ekko,Kennen
+Victory,763,Viktor,Sona,Trundle,Lux,Xerath,Lissandra,Kog'Maw,Lee Sin,Ahri,Yasuo
+Victory,1599,Graves,Thresh,Garen,Master Yi,Karma,Miss Fortune,Ryze,Quinn,Fizz,Cassiopeia
+Victory,642,Braum,Sion,Ziggs,Nami,Tristana,Kai'Sa,Taliyah,Kayn,Vladimir,Lulu
+Victory,1007,Viktor,Orianna,Nami,Swain,Brand,Galio,Kayle,Zoe,Tristana,Lucian
+Victory,899,Jax,Varus,Kassadin,Kayle,Quinn,Lux,Twitch,Kha'Zix,Rammus,Nunu & Willump
+Defeat,551,Volibear,Master Yi,Taliyah,Sejuani,Katarina,Dr. Mundo,Braum,Veigar,Sivir,Nunu & Willump
+Defeat,1590,Ezreal,Karma,Tahm Kench,Karthus,Illaoi,Fiddlesticks,Kalista,Veigar,Jax,Ryze
+Victory,822,Rakan,Garen,Tahm Kench,Nidalee,Xayah,Maokai,Ahri,Malphite,Pantheon,Rengar
+Defeat,1921,Alistar,Nami,Thresh,Kog'Maw,Illaoi,Karthus,Wukong,Ezreal,Master Yi,Galio
+Victory,1037,Yasuo,Garen,Amumu,Nami,Ahri,LeBlanc,Kayn,Vi,Jarvan IV,Twisted Fate
+Defeat,1675,Ezreal,Olaf,Karma,Malphite,Aatrox,Xerath,Illaoi,Kog'Maw,Varus,Gragas
+Victory,1167,Ryze,Urgot,Yasuo,Jhin,Swain,Miss Fortune,Graves,Ahri,Cho'Gath,Braum
+Defeat,1338,Ashe,Xayah,Akali,Diana,Kennen,Ryze,Miss Fortune,Tryndamere,Syndra,Pyke
+Victory,1210,Warwick,Vel'Koz,Lucian,Morgana,Amumu,Janna,Veigar,Cho'Gath,Ekko,Master Yi
+Victory,1026,Jinx,LeBlanc,Illaoi,Pyke,Vi,Ezreal,Varus,Soraka,Jayce,Darius
+Defeat,1192,Taliyah,Kayle,Jayce,Mordekaiser,Blitzcrank,Darius,Zyra,Yasuo,Quinn,Draven
+Victory,936,Gangplank,Dr. Mundo,Zilean,Sona,Annie,Alistar,Evelynn,Kayn,Tristana,Lissandra
+Victory,1144,Viktor,Jhin,Tristana,Kled,Sona,Karma,Jinx,Jayce,Janna,Lee Sin
+Defeat,1201,Viktor,Twisted Fate,Karma,Blitzcrank,Twitch,Rumble,Wukong,Galio,Orianna,Jayce
+Defeat,1062,Orianna,Shen,Twisted Fate,Gangplank,Rengar,Graves,Fiddlesticks,Ornn,Lux,Vel'Koz
+Defeat,795,Nasus,Jayce,Nami,Kennen,Gnar,Miss Fortune,Janna,Lulu,LeBlanc,Singed
+Victory,1318,Viktor,Kai'Sa,Blitzcrank,Aurelion Sol,Renekton,Lissandra,Lulu,Syndra,Morgana,Kha'Zix
+Victory,1431,Xerath,Taric,Tristana,Thresh,Malphite,Varus,Sivir,Graves,Zed,Nidalee
+Defeat,995,Brand,Kog'Maw,Quinn,Viktor,Shen,Caitlyn,Braum,Syndra,Malzahar,Draven
+Defeat,841,Sejuani,Jax,Tristana,Zilean,Fizz,Fiddlesticks,Lux,Hecarim,Jinx,Caitlyn
+Victory,1089,Lux,Heimerdinger,Mordekaiser,Vayne,Orianna,Anivia,Blitzcrank,Draven,Thresh,Trundle
+Defeat,970,Nidalee,Orianna,Cho'Gath,Tahm Kench,Corki,Ashe,Xin Zhao,Irelia,Ziggs,Aatrox
+Defeat,1227,Sivir,Lux,Rumble,Azir,Yasuo,Morgana,Twitch,Brand,Warwick,Teemo
+Defeat,1193,Ashe,Warwick,Katarina,Jhin,Karma,Tahm Kench,Caitlyn,Darius,Taliyah,Jax
+Defeat,1350,Taric,Irelia,Nidalee,Varus,Miss Fortune,Brand,Rakan,Morgana,Xayah,Lee Sin
+Defeat,1689,Taliyah,Shyvana,Graves,Heimerdinger,Ekko,Teemo,Nidalee,Lucian,Illaoi,Orianna
+Defeat,1115,Nami,Aatrox,Singed,Leona,Nunu & Willump,Soraka,Karma,Draven,Blitzcrank,Lucian
+Victory,1794,Ryze,Zilean,Shyvana,Ezreal,Volibear,Sion,Vel'Koz,Diana,LeBlanc,Jinx
+Victory,1290,Vayne,Akali,Kassadin,Jinx,Maokai,Talon,Kai'Sa,Blitzcrank,Syndra,Amumu
+Defeat,1425,Gangplank,Hecarim,Teemo,Miss Fortune,Ziggs,Jinx,Volibear,Sona,Nocturne,Urgot
+Victory,971,Kog'Maw,Yorick,Varus,Katarina,Xayah,Rengar,Xerath,Nidalee,Lux,Karma
+Victory,1043,Cassiopeia,Aatrox,Caitlyn,Varus,Alistar,Twisted Fate,Kindred,Illaoi,Janna,Diana
+Defeat,1828,Ekko,Vel'Koz,Hecarim,Pyke,Anivia,Tristana,Kassadin,Veigar,Mordekaiser,Thresh
+Victory,785,Illaoi,Kayle,Viktor,Shen,Jhin,Soraka,Ahri,Ashe,Nautilus,Zed
+Defeat,1005,Azir,Corki,Darius,Quinn,Swain,Jhin,Nunu & Willump,Nami,Ekko,Twisted Fate
+Defeat,957,Blitzcrank,Trundle,Camille,Pantheon,Garen,Yasuo,Ryze,Galio,Orianna,Ekko
+Defeat,1010,Rakan,Sivir,Wukong,Syndra,Twisted Fate,Jarvan IV,Lissandra,Annie,Evelynn,Vayne
+Victory,1735,Kog'Maw,Graves,Xayah,Ornn,Diana,Bard,Orianna,Ezreal,Master Yi,Malphite
+Victory,1525,Gangplank,Ziggs,LeBlanc,Garen,Rakan,Kennen,Vel'Koz,Thresh,Maokai,Lulu
+Victory,1055,Ryze,Kai'Sa,Veigar,Blitzcrank,Alistar,Kindred,Rumble,Orianna,Ekko,Quinn
+Victory,1162,Master Yi,Sivir,Maokai,Shen,Caitlyn,Zilean,Nasus,Fiora,Ziggs,Fiddlesticks
+Victory,1051,Alistar,Morgana,Nidalee,Malzahar,Galio,Rammus,Xerath,Rek'Sai,Cassiopeia,Annie
+Victory,1550,Viktor,Aatrox,Orianna,Fiddlesticks,Gangplank,Lissandra,Alistar,Pyke,Poppy,Urgot
+Defeat,1046,Quinn,Master Yi,Pyke,Vladimir,Heimerdinger,LeBlanc,Dr. Mundo,Alistar,Gangplank,Veigar
+Victory,836,Twitch,Vladimir,Jinx,Gnar,Zed,Ryze,Xayah,Malzahar,Veigar,Taric
+Victory,1702,Gangplank,Zilean,Nasus,Darius,Rengar,Shen,Janna,Xerath,Morgana,Pyke
+Defeat,1320,Taliyah,Lulu,Miss Fortune,Kennen,Blitzcrank,Maokai,Vayne,Kog'Maw,Master Yi,Amumu
+Defeat,1221,Brand,Alistar,Janna,Blitzcrank,Zilean,Morgana,Kai'Sa,Galio,Sona,Jinx
+Victory,1291,Kog'Maw,Vladimir,Lux,Twitch,Shaco,Quinn,Twisted Fate,Heimerdinger,Ezreal,Cassiopeia
+Victory,1063,Viktor,Malphite,Lux,Nocturne,Zyra,Azir,Malzahar,Swain,Vayne,Nautilus
+Defeat,514,Viktor,Gnar,Ekko,Vayne,Zyra,Ezreal,Fiddlesticks,Illaoi,Darius,Aurelion Sol
+Victory,864,Ryze,Kog'Maw,Illaoi,Twisted Fate,Jhin,LeBlanc,Jax,Quinn,Blitzcrank,Ekko
+Victory,1299,Janna,Gangplank,Malphite,Ashe,Akali,Nunu & Willump,Nautilus,Pantheon,Gnar,LeBlanc
+Defeat,857,Jayce,Ashe,Thresh,Xin Zhao,Bard,Vel'Koz,Gangplank,Corki,Blitzcrank,Taric
+Defeat,707,Annie,Vayne,Darius,Lulu,Orianna,Ashe,Zed,Pantheon,Xerath,Ekko
+Defeat,1058,Caitlyn,Swain,Malphite,Nasus,Amumu,Brand,Yasuo,Alistar,Karma,Maokai
+Victory,1238,Viktor,Xayah,Kalista,Singed,Brand,Fiora,Jarvan IV,Urgot,Cassiopeia,Maokai
+Victory,951,Maokai,Master Yi,Ahri,Kled,Leona,Malphite,Sona,Bard,Kalista,Fizz
+Victory,1336,Viktor,Kayn,Miss Fortune,Orianna,Darius,Katarina,Fizz,Teemo,Nasus,Riven
+Victory,1100,Draven,Ryze,Yasuo,Xayah,Brand,Olaf,Twitch,Skarner,Illaoi,Lissandra
+Defeat,950,Twitch,Ryze,Talon,Dr. Mundo,Kayle,Nasus,Quinn,Zilean,Ashe,Sona
+Victory,734,Sivir,Nasus,Tristana,Janna,Jayce,Kayn,Ornn,Zoe,Bard,Ahri
+Defeat,1662,Graves,Xerath,LeBlanc,Syndra,Jhin,Amumu,Garen,Kassadin,Varus,Talon
+Defeat,1088,Ezreal,Leona,Lulu,Illaoi,Nunu & Willump,Katarina,Miss Fortune,Fizz,Malphite,Mordekaiser
+Victory,809,Kog'Maw,Gnar,Sivir,Azir,Kled,Teemo,Orianna,Sejuani,Skarner,Ryze
+Defeat,1011,Tristana,Cassiopeia,Skarner,Varus,Garen,Xayah,Graves,Leona,Darius,Katarina
+Victory,1127,Jhin,Morgana,Blitzcrank,Trundle,Lux,Olaf,Xerath,Soraka,Sivir,Xin Zhao
+Victory,1371,Cassiopeia,Morgana,Teemo,Blitzcrank,Corki,Kog'Maw,Taliyah,Thresh,Rammus,Graves
+Victory,960,Viktor,Yorick,Kled,Gangplank,Sona,Miss Fortune,Alistar,Rengar,Blitzcrank,Quinn
+Victory,1047,Brand,Graves,Jayce,Rakan,Fizz,Jax,Sion,Swain,Sivir,Azir
+Defeat,1333,Kog'Maw,Ziggs,Anivia,Maokai,Karma,Vladimir,Rammus,Fiddlesticks,Ezreal,Swain
+Defeat,807,Graves,Miss Fortune,Sivir,Darius,Vayne,Xayah,Kindred,Poppy,Jhin,Ziggs
+Defeat,994,Cho'Gath,Viktor,Gragas,Graves,Rengar,Morgana,Urgot,Sona,Caitlyn,Vladimir
+Victory,1746,Veigar,Twitch,Darius,Ziggs,Lulu,Morgana,Nunu & Willump,Rakan,Ezreal,Caitlyn
+Victory,1561,Twitch,Pyke,Soraka,Galio,Vel'Koz,Urgot,Gnar,Shaco,Vi,Malzahar
+Victory,1105,Nautilus,Sion,Vayne,LeBlanc,Urgot,Poppy,Orianna,Swain,Zoe,Kayle
+Defeat,794,Draven,Gnar,Fiddlesticks,Yasuo,Pyke,Kog'Maw,Taliyah,Nautilus,Zac,Veigar
+Defeat,1034,Vladimir,Caitlyn,Zac,Fizz,Quinn,Xerath,Illaoi,Vayne,Lulu,Katarina
+Victory,1653,Jinx,Quinn,Maokai,Illaoi,Kayle,Tristana,Nautilus,Xayah,Brand,Twisted Fate
+Defeat,1341,Sion,Galio,Cho'Gath,Draven,Talon,Brand,Darius,Kai'Sa,Zyra,Teemo
+Defeat,1452,Anivia,Bard,Vi,Heimerdinger,Taliyah,Sivir,Garen,Xayah,Mordekaiser,Xin Zhao
+Victory,1632,Thresh,Aurelion Sol,Veigar,Zilean,Anivia,Varus,Brand,Kai'Sa,Tristana,Azir
+Defeat,1303,Thresh,Xerath,Sion,Lucian,Fiddlesticks,Bard,Xayah,Rakan,Talon,Singed
+Defeat,1216,Braum,Fiddlesticks,Twitch,Jayce,Vi,Cho'Gath,Syndra,Singed,Swain,Corki
+Defeat,1273,Vayne,Veigar,Gangplank,Cho'Gath,Malzahar,Pyke,Maokai,Braum,Anivia,Sion
+Defeat,1191,Xayah,Alistar,Karma,Kha'Zix,Warwick,Teemo,Quinn,Dr. Mundo,Vel'Koz,Ziggs
+Defeat,549,Miss Fortune,Shyvana,Illaoi,Ahri,Azir,Xerath,Zilean,Darius,Jax,Malphite
+Defeat,951,Soraka,Karma,Jinx,Vayne,Pyke,Ziggs,Lux,Yasuo,Karthus,Graves
+Victory,884,Viktor,Janna,Mordekaiser,Nasus,Ezreal,Urgot,Varus,Malzahar,Thresh,Rengar
+Victory,1100,Malphite,Cassiopeia,Skarner,Pantheon,Teemo,Blitzcrank,Poppy,Ashe,Viktor,Nami
+Defeat,1010,Singed,Cassiopeia,Taliyah,Galio,Zoe,Talon,Kayle,Tristana,Shyvana,Alistar
+Victory,1003,Sion,Rumble,Jayce,Lucian,Corki,Zilean,Tristana,Lissandra,Ahri,Draven
+Victory,945,Morgana,Kai'Sa,Gangplank,Master Yi,Karma,Ahri,Syndra,Rumble,Sivir,Pyke
+Defeat,991,Alistar,Illaoi,Quinn,Ahri,Yasuo,Rakan,Kassadin,Cho'Gath,Lulu,Caitlyn
+Defeat,1219,Ryze,Zyra,Teemo,Zoe,Nidalee,Xerath,Pyke,Xayah,Sion,Katarina
+Victory,958,Galio,Vladimir,Kassadin,Twisted Fate,Graves,Zed,Sona,Katarina,Kindred,LeBlanc
+Defeat,586,Tahm Kench,Volibear,Rek'Sai,Viktor,Rengar,Tristana,Ashe,Xerath,Anivia,Lucian
+Victory,1332,Jhin,Orianna,Poppy,Kled,Vel'Koz,Miss Fortune,Kai'Sa,Brand,Talon,Viktor
+Defeat,810,Olaf,Orianna,Trundle,Nunu & Willump,Taric,Ashe,Bard,Cho'Gath,Illaoi,Dr. Mundo
+Defeat,1268,Viktor,Urgot,Alistar,Corki,Ekko,LeBlanc,Vel'Koz,Camille,Ashe,Zilean
+Victory,942,Cassiopeia,Kha'Zix,Ashe,Kassadin,Jarvan IV,Morgana,Tristana,Ahri,Tryndamere,Fiora
+Victory,570,Zac,Xayah,Taric,Kog'Maw,Veigar,Aatrox,Warwick,Trundle,Dr. Mundo,Katarina
+Defeat,1561,Morgana,Miss Fortune,Pyke,Karma,Renekton,Ziggs,Xerath,Gnar,Veigar,Fiddlesticks
+Victory,881,Jhin,Urgot,Xayah,Ziggs,Master Yi,Vel'Koz,Graves,Kindred,Brand,Blitzcrank
+Victory,906,Ezreal,Sona,Malphite,Twitch,Nami,Jinx,LeBlanc,Taliyah,Pyke,Twisted Fate
+Defeat,1219,Lux,Kayle,Gragas,Galio,Singed,Graves,Nami,Evelynn,Jhin,Kog'Maw
+Defeat,1070,Singed,Nami,Heimerdinger,Mordekaiser,Rengar,Sion,Kog'Maw,Teemo,Ahri,Gangplank
+Victory,1504,Tristana,Alistar,Blitzcrank,Shyvana,Vel'Koz,Sona,Lee Sin,Ezreal,Morgana,Nasus
+Defeat,931,Jhin,Annie,Sona,Galio,Vi,Nocturne,Nautilus,Janna,Swain,Anivia
+Victory,1171,Thresh,Karma,Veigar,Teemo,Sona,Nunu & Willump,Cho'Gath,Nasus,Graves,Pyke
+Defeat,1196,Taliyah,Singed,LeBlanc,Elise,Orianna,Ezreal,Tahm Kench,Kindred,Camille,Nidalee
+Victory,1478,Tristana,LeBlanc,Ziggs,Ashe,Hecarim,Thresh,Brand,Morgana,Cassiopeia,Heimerdinger
+Victory,933,Taliyah,Caitlyn,Kai'Sa,Sona,Garen,Amumu,Fiddlesticks,Shen,Lucian,Shaco
+Victory,726,Graves,Kayle,Lulu,Janna,Nami,Vayne,Shen,Kassadin,Akali,Malzahar
+Victory,955,Xerath,Fiddlesticks,Brand,Corki,Kog'Maw,Jayce,Gragas,Xayah,Vi,Ekko
+Victory,1040,Rakan,Miss Fortune,Aurelion Sol,Swain,Ziggs,Tryndamere,Karma,Katarina,Janna,Mordekaiser
+Defeat,790,Ashe,Annie,Lucian,Kennen,Blitzcrank,Akali,Maokai,Shyvana,Teemo,Miss Fortune
+Defeat,1097,Karma,Twitch,Kai'Sa,Kled,Janna,Xayah,Vel'Koz,Master Yi,Fiddlesticks,Thresh
+Defeat,609,Tristana,Graves,Renekton,Swain,Master Yi,Fizz,Nasus,Warwick,Draven,Caitlyn
+Victory,566,Caitlyn,Zoe,Garen,Miss Fortune,Urgot,Akali,Mordekaiser,Lulu,Jax,Taliyah
+Victory,1014,Galio,Annie,Miss Fortune,Master Yi,Zed,Evelynn,Kennen,Ryze,Ashe,Jayce
+Defeat,1554,Zac,Lulu,Kai'Sa,Nasus,Kayle,Varus,Syndra,Rumble,Warwick,Orianna
+Victory,962,Kog'Maw,Thresh,Evelynn,Sivir,Talon,Annie,Heimerdinger,Blitzcrank,Ezreal,Vayne
+Victory,1068,Sivir,Karma,Ashe,Amumu,Nunu & Willump,Malzahar,Viktor,Draven,Akali,Gragas
+Defeat,1180,Rakan,Urgot,Vladimir,Janna,Kog'Maw,Twitch,Blitzcrank,Amumu,Veigar,Jayce
+Victory,1272,Gangplank,Zyra,Illaoi,Karthus,Thresh,Varus,Xayah,Soraka,Zed,Maokai
+Defeat,1571,Ezreal,Katarina,Dr. Mundo,Bard,Renekton,Shen,Jhin,Heimerdinger,Ekko,Singed
+Defeat,1094,Vladimir,Mordekaiser,Vel'Koz,Varus,Hecarim,Talon,Sivir,Kayn,Janna,Warwick
+Victory,681,Kog'Maw,Zed,Galio,Janna,Ashe,Katarina,Rammus,Urgot,Irelia,Cassiopeia
+Defeat,1057,Camille,Dr. Mundo,Aatrox,Taliyah,Illaoi,Darius,Nautilus,Vayne,Talon,Graves
+Defeat,743,Cassiopeia,Jax,Singed,Malphite,Nunu & Willump,Zilean,Warwick,Varus,Nautilus,Janna
+Defeat,769,Nautilus,Dr. Mundo,Teemo,Kayn,Ekko,Darius,Kalista,Zyra,Xayah,Heimerdinger
+Victory,674,Nautilus,Aurelion Sol,Miss Fortune,Aatrox,Jax,Jinx,Malphite,Leona,Quinn,Alistar
+Defeat,1286,Ashe,Singed,Nasus,Teemo,Diana,Xin Zhao,Rumble,Amumu,Karma,Soraka
+Victory,1031,Nidalee,Quinn,Anivia,Morgana,Maokai,Rengar,Galio,Varus,Orianna,Shyvana
+Defeat,1292,Nidalee,Lulu,Quinn,Amumu,Ziggs,Vayne,Fiddlesticks,Graves,Xerath,Kog'Maw
+Defeat,943,Kai'Sa,Sejuani,Fizz,Bard,Nautilus,Sion,Rakan,Teemo,Twitch,Kayn
+Defeat,1101,Kennen,Heimerdinger,Nami,Kayle,Jinx,Vel'Koz,Xayah,Nidalee,Jayce,Karma
+Victory,1540,Zoe,Anivia,Ziggs,Soraka,Lucian,Syndra,Orianna,Graves,Maokai,Nidalee
+Victory,1226,Zilean,Evelynn,Lux,Master Yi,Zed,Irelia,Veigar,Shen,Gragas,Quinn
+Defeat,1378,Lulu,Diana,Yasuo,Karthus,Ziggs,Sion,Xayah,Vel'Koz,Miss Fortune,Shen
+Defeat,1305,Anivia,Twisted Fate,Lissandra,Janna,Jarvan IV,Karma,Caitlyn,Annie,Lux,Lee Sin
+Defeat,974,Malphite,Lucian,Corki,Sion,Yasuo,Garen,Jax,Jhin,Vel'Koz,Braum
+Victory,1259,Twitch,Nidalee,Heimerdinger,Anivia,Malphite,Ryze,Ekko,Shaco,Zoe,Tristana
+Victory,1485,Galio,Cassiopeia,Thresh,Nocturne,Nasus,Karthus,Lux,Draven,Kai'Sa,Viktor
+Victory,1120,Ezreal,Nocturne,Azir,Janna,Galio,Teemo,Nunu & Willump,Corki,Xayah,Malzahar
+Victory,940,Graves,Alistar,Urgot,Kennen,Swain,Riven,Heimerdinger,Kindred,Pantheon,Zed
+Victory,1075,Vayne,Azir,Karthus,Amumu,Rakan,Rammus,Hecarim,Ekko,Ahri,Orianna
+Defeat,1168,Gangplank,Diana,Katarina,Varus,Sion,Zyra,Gnar,Caitlyn,Sona,Ezreal
+Defeat,984,Ryze,Graves,Veigar,Camille,Miss Fortune,Morgana,Zilean,Zyra,Urgot,Lucian
+Victory,1062,Brand,Garen,Zac,Lulu,Nasus,Talon,Lissandra,Syndra,Nidalee,Wukong
+Victory,1216,Viktor,Sona,Zoe,Graves,Kai'Sa,Urgot,Zed,Syndra,Ashe,Jhin
+Defeat,1458,Volibear,Nami,Fizz,Kai'Sa,Skarner,Brand,Jax,Azir,Riven,Twisted Fate
+Defeat,1294,Cassiopeia,Vayne,Urgot,Zyra,LeBlanc,Lissandra,Ashe,Illaoi,Graves,Nidalee
+Victory,944,Jinx,Jax,Ziggs,Zac,Ekko,Hecarim,Rumble,Jayce,Maokai,Twitch
+Defeat,863,Lucian,Zilean,Alistar,Illaoi,Zac,Elise,Veigar,Jhin,Poppy,Olaf
+Defeat,1178,Ryze,Fiddlesticks,Jax,Fiora,Kled,Zoe,Vel'Koz,Warwick,Nocturne,Kai'Sa
+Victory,882,Vladimir,Illaoi,Irelia,Renekton,Kayle,Jayce,Orianna,Leona,Dr. Mundo,Zac
+Victory,1841,Alistar,Caitlyn,Heimerdinger,Yasuo,Fizz,Amumu,Veigar,LeBlanc,Ezreal,Sivir
+Victory,1002,Ziggs,Sona,Dr. Mundo,Sion,Ahri,Yasuo,Lulu,Annie,Darius,Vel'Koz
+Victory,991,Aurelion Sol,Jhin,Galio,Renekton,Nunu & Willump,Ashe,Ryze,Vi,Taliyah,Blitzcrank
+Victory,1092,Zed,Jinx,Maokai,Lulu,Anivia,Vel'Koz,Shen,Sivir,Akali,Karma
+Defeat,1530,Fizz,Zoe,Lulu,Volibear,Hecarim,Syndra,Gragas,Corki,Skarner,Jinx
+Victory,1316,Ryze,Azir,Warwick,Varus,Fizz,Xerath,Nautilus,Ahri,Syndra,Kassadin
+Victory,769,Ashe,Xerath,Zoe,Ziggs,Sejuani,Jinx,Malphite,Kindred,Miss Fortune,Ahri
+Victory,1073,Ahri,Graves,Volibear,Miss Fortune,Lux,Kai'Sa,Illaoi,Varus,Talon,Fizz
+Victory,1087,Ahri,Ryze,Zed,Galio,Lucian,Syndra,Pyke,Varus,Rengar,Draven
+Defeat,1217,Annie,Akali,Master Yi,Ziggs,Varus,Zoe,Sivir,Garen,Sona,Tahm Kench
+Victory,1125,Maokai,Kai'Sa,Ahri,Caitlyn,Olaf,Lulu,Poppy,Aatrox,Zilean,Gragas
+Defeat,1360,Nidalee,Katarina,Janna,Annie,Twisted Fate,Heimerdinger,Jhin,Karthus,Kalista,Malphite
+Victory,1386,Soraka,Taliyah,Darius,Anivia,Sona,Lucian,Karthus,Nami,Cho'Gath,Shen
+Defeat,913,Graves,Janna,Karma,Garen,Xayah,Sivir,Nami,Katarina,Morgana,Miss Fortune
+Victory,1149,Teemo,Amumu,Ziggs,Janna,Heimerdinger,Annie,Vayne,Leona,Sion,Kennen
+Defeat,1304,Sivir,Xerath,Vayne,Bard,Orianna,Ahri,Kayn,Nunu & Willump,Pyke,Kai'Sa
+Victory,1628,Taric,Yorick,Cho'Gath,Zac,Skarner,Ahri,Lux,Lucian,Vayne,Kayle
+Defeat,1087,Blitzcrank,Morgana,Udyr,Azir,Veigar,Ziggs,Zed,LeBlanc,Janna,Cho'Gath
+Victory,1050,Kindred,Maokai,Azir,Brand,Anivia,Pyke,Galio,Caitlyn,Soraka,Thresh
+Defeat,1353,Rumble,Xerath,Diana,Draven,Orianna,Kha'Zix,Jhin,Zilean,Annie,Pantheon
+Defeat,1003,Jayce,Veigar,Pyke,Ahri,Ashe,Syndra,Maokai,Lee Sin,Irelia,Garen
+Victory,1031,Galio,Zilean,Corki,Janna,Caitlyn,Sivir,Twisted Fate,Kled,Veigar,Lucian
+Victory,1534,Thresh,Gragas,Dr. Mundo,Syndra,Viktor,Blitzcrank,Maokai,Mordekaiser,Kha'Zix,Kai'Sa
+Victory,1647,Fiora,Vayne,Pantheon,Ahri,Quinn,Alistar,Teemo,Dr. Mundo,Rakan,Lux
+Victory,952,Maokai,Heimerdinger,Darius,Annie,Riven,Cho'Gath,Diana,Lee Sin,Vi,Kalista
+Victory,1080,Jinx,Urgot,Sona,Ashe,Zilean,Azir,Lulu,Braum,Rengar,Brand
+Defeat,1413,Malphite,Vayne,Jinx,Swain,Lucian,Olaf,Jax,Aurelion Sol,LeBlanc,Teemo
+Victory,1599,Sivir,Jhin,Poppy,Kai'Sa,Zilean,Miss Fortune,Soraka,Zed,Kha'Zix,Ahri
+Victory,1223,Jhin,Quinn,Zac,Bard,Caitlyn,Akali,Ekko,Sion,Orianna,Draven
+Defeat,1460,Skarner,Zilean,Irelia,Xerath,Cho'Gath,Jax,Kassadin,Illaoi,Aurelion Sol,Fizz
+Victory,1325,Ziggs,Veigar,Swain,Soraka,Ashe,Ezreal,Nami,Varus,Karthus,Lucian
+Defeat,744,Ryze,Twisted Fate,Rengar,Darius,LeBlanc,Alistar,Thresh,Twitch,Kayle,Sona
+Victory,1040,Rakan,Miss Fortune,Aurelion Sol,Swain,Ziggs,Tryndamere,Karma,Katarina,Janna,Mordekaiser
+Defeat,790,Ashe,Annie,Lucian,Kennen,Blitzcrank,Akali,Maokai,Shyvana,Teemo,Miss Fortune
+Defeat,1097,Karma,Twitch,Kai'Sa,Kled,Janna,Xayah,Vel'Koz,Master Yi,Fiddlesticks,Thresh
+Defeat,609,Tristana,Graves,Renekton,Swain,Master Yi,Fizz,Nasus,Warwick,Draven,Caitlyn
+Defeat,1009,Illaoi,Nautilus,Zac,Vladimir,Quinn,Shen,Gangplank,Caitlyn,Twisted Fate,Kalista
+Victory,1316,Ryze,Azir,Warwick,Varus,Fizz,Xerath,Nautilus,Ahri,Syndra,Kassadin
+Victory,769,Ashe,Xerath,Zoe,Ziggs,Sejuani,Jinx,Malphite,Kindred,Miss Fortune,Ahri
+Victory,1073,Ahri,Graves,Volibear,Miss Fortune,Lux,Kai'Sa,Illaoi,Varus,Talon,Fizz
+Victory,1087,Ahri,Ryze,Zed,Galio,Lucian,Syndra,Pyke,Varus,Rengar,Draven
+Defeat,1217,Annie,Akali,Master Yi,Ziggs,Varus,Zoe,Sivir,Garen,Sona,Tahm Kench
+Victory,1125,Maokai,Kai'Sa,Ahri,Caitlyn,Olaf,Lulu,Poppy,Aatrox,Zilean,Gragas
+Defeat,1360,Nidalee,Katarina,Janna,Annie,Twisted Fate,Heimerdinger,Jhin,Karthus,Kalista,Malphite
+Victory,1199,Fiddlesticks,Maokai,Jinx,Dr. Mundo,Shyvana,Ezreal,Twitch,Veigar,Illaoi,Karma
+Victory,1709,Blitzcrank,Cho'Gath,Vladimir,Graves,Akali,Zed,Viktor,Ekko,Garen,Karthus
+Defeat,718,Rakan,Thresh,Udyr,Malzahar,Caitlyn,Mordekaiser,Shyvana,Kindred,Cassiopeia,Blitzcrank
+Defeat,1089,Zilean,Viktor,Tristana,Ziggs,Fiddlesticks,Karma,Jhin,Xayah,Blitzcrank,Braum
+Defeat,906,Kayn,Vladimir,Jax,Ahri,Caitlyn,Riven,Brand,Vel'Koz,Akali,Gangplank
+Victory,1339,Leona,Ryze,Jinx,Soraka,Master Yi,Lee Sin,Thresh,Kennen,Sona,Zoe
+Victory,791,Janna,Miss Fortune,Twisted Fate,Fiddlesticks,Garen,Ezreal,Kayle,Azir,Nautilus,Sion
+Victory,1599,Sivir,Jhin,Poppy,Kai'Sa,Zilean,Miss Fortune,Soraka,Zed,Kha'Zix,Ahri
+Victory,1223,Jhin,Quinn,Zac,Bard,Caitlyn,Akali,Ekko,Sion,Orianna,Draven
+Defeat,1460,Skarner,Zilean,Irelia,Xerath,Cho'Gath,Jax,Kassadin,Illaoi,Aurelion Sol,Fizz
+Defeat,790,Ashe,Annie,Lucian,Kennen,Blitzcrank,Akali,Maokai,Shyvana,Teemo,Miss Fortune
+Defeat,1097,Karma,Twitch,Kai'Sa,Kled,Janna,Xayah,Vel'Koz,Master Yi,Fiddlesticks,Thresh
+Defeat,609,Tristana,Graves,Renekton,Swain,Master Yi,Fizz,Nasus,Warwick,Draven,Caitlyn
+Defeat,1009,Illaoi,Nautilus,Zac,Vladimir,Quinn,Shen,Gangplank,Caitlyn,Twisted Fate,Kalista
+Victory,1199,Fiddlesticks,Maokai,Jinx,Dr. Mundo,Shyvana,Ezreal,Twitch,Veigar,Illaoi,Karma
+Victory,791,Janna,Miss Fortune,Twisted Fate,Fiddlesticks,Garen,Ezreal,Kayle,Azir,Nautilus,Sion
+Defeat,969,Corki,Cassiopeia,Annie,Cho'Gath,Dr. Mundo,Gragas,Shaco,Sivir,Heimerdinger,Nami
+Defeat,852,Rakan,Veigar,Twisted Fate,Xayah,Braum,Brand,Kog'Maw,Pyke,Miss Fortune,Cassiopeia
+Defeat,961,Ryze,Draven,Varus,Yasuo,Singed,Garen,Zyra,Maokai,Leona,Teemo
+Defeat,1309,Anivia,Diana,Poppy,Irelia,Kai'Sa,Gangplank,Rakan,Kennen,Camille,Amumu
+Victory,1324,Alistar,Ashe,Fizz,Singed,Vel'Koz,Ryze,Gangplank,Soraka,Darius,Rumble
+Victory,1815,Cho'Gath,Nunu & Willump,Varus,Annie,Heimerdinger,Ryze,Kassadin,Malzahar,Thresh,Lucian
+Defeat,836,Rammus,Draven,Kassadin,Diana,Twitch,Sejuani,Sivir,Ekko,Zed,Gangplank
+Victory,1038,Braum,Twitch,Morgana,Zed,Xayah,Lissandra,Bard,Lucian,Kai'Sa,Heimerdinger
+Victory,1599,Sivir,Jhin,Poppy,Kai'Sa,Zilean,Miss Fortune,Soraka,Zed,Kha'Zix,Ahri
+Victory,1048,Ahri,Twisted Fate,Kai'Sa,Azir,Miss Fortune,Pyke,Blitzcrank,Darius,Kalista,Jinx
+Victory,1217,Ashe,Zilean,Vayne,Illaoi,Nami,Aurelion Sol,Wukong,Akali,Fiddlesticks,Jarvan IV
+Victory,949,Lux,Galio,Vel'Koz,Riven,Orianna,Blitzcrank,Syndra,Ryze,Annie,Vi
+Defeat,1143,Zoe,Taliyah,Lux,Xayah,Kha'Zix,Thresh,Fizz,Jinx,Mordekaiser,Ahri
+Victory,949,Thresh,Annie,Varus,Aatrox,Sona,Vayne,Teemo,Dr. Mundo,Zed,Kog'Maw
+Defeat,1137,Taliyah,Soraka,Shen,Ryze,Thresh,Yasuo,Ezreal,Kai'Sa,Swain,Braum
+Defeat,1460,Skarner,Zilean,Irelia,Xerath,Cho'Gath,Jax,Kassadin,Illaoi,Aurelion Sol,Fizz
+Victory,1325,Ziggs,Veigar,Swain,Soraka,Ashe,Ezreal,Nami,Varus,Karthus,Lucian
+Defeat,744,Ryze,Twisted Fate,Rengar,Darius,LeBlanc,Alistar,Thresh,Twitch,Kayle,Sona
+Victory,797,Morgana,Nunu & Willump,Diana,Volibear,Leona,Quinn,Tristana,Xerath,Pyke,Yasuo
+Victory,1040,Rakan,Miss Fortune,Aurelion Sol,Swain,Ziggs,Tryndamere,Karma,Katarina,Janna,Mordekaiser
+Defeat,790,Ashe,Annie,Lucian,Kennen,Blitzcrank,Akali,Maokai,Shyvana,Teemo,Miss Fortune
+Defeat,1097,Karma,Twitch,Kai'Sa,Kled,Janna,Xayah,Vel'Koz,Master Yi,Fiddlesticks,Thresh
+Defeat,609,Tristana,Graves,Renekton,Swain,Master Yi,Fizz,Nasus,Warwick,Draven,Caitlyn
+Defeat,1009,Illaoi,Nautilus,Zac,Vladimir,Quinn,Shen,Gangplank,Caitlyn,Twisted Fate,Kalista
