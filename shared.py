@@ -1,12 +1,6 @@
+#Stores functions and other things used by other files
 import numpy as np
-import pandas as pd
-from sklearn.preprocessing import LabelEncoder
-from sklearn.linear_model import LogisticRegression
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error
 
-#dictionary of champions and their attributes
 champ_dic = {'Aatrox': 'Juggernaut', 'Ahri': 'Burst', 'Akali': 'Assassin',
  'Alistar': 'Vanguard', 'Amumu': 'Vanguard', 'Anivia': 'Battlemage',
  'Annie': 'Burst', 'Ashe': 'Marksman', 'Aurelion Sol': 'Battlemage',
@@ -55,16 +49,6 @@ attribute_list = ['Enchanter','Catcher','Juggernaut','Diver','Burst',
 'Battlemage','Artillery','Marksman','Assassin','Skirmisher','Vanguard',
 'Warden','Specialist']
 
-df = pd.read_csv("game_data_2.csv", encoding='utf-8')
-#encode win/losses
-win_lose = df.iloc[:,0].values
-le = LabelEncoder()
-y1 = le.fit_transform(win_lose)
-#game length in seconds
-y2 = df.iloc[:,1].values
-#champion data
-champs = df.iloc[:,2:].values
-
 #convert samples into vector of champion counts
 def vectorize_champ(sample):
     champ_list = list(champ_dic.keys())
@@ -88,40 +72,3 @@ def vectorize_attribute(sample):
         attribute = champ_dic[champ]
         x[len(attribute_list) + attribute_list.index(attribute)] += 1
     return np.array(x)
-
-#predict
-def predict_outcome(champs):
-    input = vectorize_champ(champs).reshape(1,-1)
-    outcome = log_reg.predict(input)[0]
-    length = lin_reg.predict(input)[0]
-    if outcome == 0:
-        print("Defeat")
-    else:
-        print("Victory")
-    print("{} m {} s".format(length//60, length%60))
-
-#vectorize input data
-X = []
-for sample in champs:
-    X.append(vectorize_champ(sample))
-X = np.array(X)
-#Logisitic Regression on wins/losses
-#split into train and test sets
-X_train, X_test, y1_train, y1_test = train_test_split(X, y1,
-                                                    test_size = 0.4,
-                                                    stratify = y1,
-                                                    random_state = 1)
-log_reg = LogisticRegression(random_state=1)
-log_reg.fit(X_train, y1_train)
-print('W/L Training Accuracy: %.3f' % log_reg.score(X_train, y1_train))
-print('W/L Test Accuracy: %.3f' % log_reg.score(X_test, y1_test))
-#Linear regression on game Length
-X_train, X_test, y2_train, y2_test = train_test_split(X, y2,
-                                                    test_size=0.1,
-                                                    random_state=1)
-lin_reg = LinearRegression()
-lin_reg.fit(X_train, y2_train)
-y2_train_pred = lin_reg.predict(X_train)
-y2_test_pred = lin_reg.predict(X_test)
-print('Training MSE: %.3f' % mean_squared_error(y2_train, y2_train_pred))
-print('Test MSE: %.3f' % mean_squared_error(y2_test, y2_test_pred))
