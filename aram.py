@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
 #dictionary of champions and their attributes
-champ_list = {'Aatrox': 'Juggernaut', 'Ahri': 'Burst', 'Akali': 'Assassin',
+champ_dic = {'Aatrox': 'Juggernaut', 'Ahri': 'Burst', 'Akali': 'Assassin',
  'Alistar': 'Vanguard', 'Amumu': 'Vanguard', 'Anivia': 'Battlemage',
  'Annie': 'Burst', 'Ashe': 'Marksman', 'Aurelion Sol': 'Battlemage',
  'Azir': 'Specialist', 'Bard': 'Catcher', 'Blitzcrank': 'Catcher',
@@ -65,23 +65,33 @@ y2 = df.iloc[:,1].values
 #champion data
 champs = df.iloc[:,2:].values
 
+#convert samples into vector of champion counts
+def vectorize_champ(sample):
+    champ_list = list(champ_dic.keys())
+    x = [0] * (len(champ_list) * 2)
+    for champ in sample[:5]:
+        x[champ_list.index(champ)] += 1
+    for champ in sample[5:]:
+        x[len(champ_list) + champ_list.index(champ)] += 1
+    return np.array(x)
+
 #convert samples (vector of length 10) into vector of attribute counts
 #[ally 13 attributes][enemy 13 attributes]
-def vectorize(sample):
+def vectorize_attribute(sample):
     x = [0] * (len(attribute_list) * 2)
     #ally champions
     for champ in sample[0:5]:
-        attribute = champ_list[champ]
+        attribute = champ_dic[champ]
         x[attribute_list.index(attribute)] += 1
     #enemy champions
     for champ in sample[5:]:
-        attribute = champ_list[champ]
+        attribute = champ_dic[champ]
         x[len(attribute_list) + attribute_list.index(attribute)] += 1
     return np.array(x)
 
 #predict
 def predict_outcome(champs):
-    input = vectorize(champs).reshape(1,-1)
+    input = vectorize_champ(champs).reshape(1,-1)
     outcome = log_reg.predict(input)[0]
     length = lin_reg.predict(input)[0]
     if outcome == 0:
@@ -93,12 +103,12 @@ def predict_outcome(champs):
 #vectorize input data
 X = []
 for sample in champs:
-    X.append(vectorize(sample))
+    X.append(vectorize_champ(sample))
 X = np.array(X)
 #Logisitic Regression on wins/losses
 #split into train and test sets
 X_train, X_test, y1_train, y1_test = train_test_split(X, y1,
-                                                    test_size = 0.2,
+                                                    test_size = 0.4,
                                                     stratify = y1,
                                                     random_state = 1)
 log_reg = LogisticRegression(random_state=1)
