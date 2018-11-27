@@ -12,7 +12,7 @@ y1 = le.fit_transform(win_lose)
 #game length in seconds
 y2 = df.iloc[:,1].values
 #champion data
-champs = df.iloc[:,2:].values
+champs = df.iloc[:,2:12].values
 #vectorize input data
 X = []
 for sample in champs:
