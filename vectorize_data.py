@@ -16,7 +16,7 @@ champs = df.iloc[:,2:].values
 #vectorize input data
 X = []
 for sample in champs:
-    X.append(shared.vectorize_champ(sample))
+    X.append(shared.vectorize_attribute(sample))
 X = np.array(X)
 #Logisitic Regression on wins/losses
 #split into train and test sets
