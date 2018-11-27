@@ -12,7 +12,7 @@ used_names = set()
 #counter to stop
 n_max = 1000
 n_current = 0
-while n_current < n_max:
+while (n_current < n_max) or names:
     print(n_current)
     n_current += 1
     current_name = names.pop()
@@ -76,4 +76,6 @@ while n_current < n_max:
                 name = str(name)
                 if name not in used_names:
                     names.append(re.sub(' ', '', name))
+            #for test purposes
+            info.append(game_type)
             writer.writerow(info)
