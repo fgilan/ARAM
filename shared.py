@@ -62,13 +62,13 @@ def vectorize_champ(sample):
 #convert samples (vector of length 10) into vector of attribute counts
 #[ally 13 attributes][enemy 13 attributes]
 def vectorize_attribute(sample):
-    x = [0] * (len(attribute_list) * 2)
+    x = [0] * len(attribute_list)
     #ally champions
-    for champ in sample[0:5]:
+    for champ in sample[:5]:
         attribute = champ_dic[champ]
         x[attribute_list.index(attribute)] += 1
     #enemy champions
     for champ in sample[5:]:
         attribute = champ_dic[champ]
-        x[len(attribute_list) + attribute_list.index(attribute)] += 1
+        x[attribute_list.index(attribute)] -= 1
     return np.array(x)
