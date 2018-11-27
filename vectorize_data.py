@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 import shared
 
-df = pd.read_csv("game_data_2.csv", encoding='utf-8')
+df = pd.read_csv("game_data_2.csv", encoding='utf-8', header=None)
 #encode win/losses
 win_lose = df.iloc[:,0].values
 le = LabelEncoder()

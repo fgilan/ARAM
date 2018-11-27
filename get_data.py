@@ -30,7 +30,8 @@ while n_current < n_max:
         for game in games:
             #Check if GameType is ARAM
             game_type = game.find(class_ = 'GameType').string
-            if 'ARAM' not in game_type:
+            game_type = re.sub('\n|\t', '', game_type)
+            if game_type != 'ARAM':
                 continue
             #get game id and make sure it is not duplicate
             game_id = game.find('div')['data-game-id']
@@ -43,7 +44,8 @@ while n_current < n_max:
             #Victory or Defeat
             game_result = game.find(class_ = 'GameResult').string
             game_result = re.sub('\n|\t', '', game_result)
-            info.append(game_result)
+            if game_result != 'Remake':
+                info.append(game_result)
             #Game Length in seconds
             game_length = game.find(class_ = 'GameLength').string
             game_length = re.sub('m|s', '', game_length)
