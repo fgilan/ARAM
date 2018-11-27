@@ -49,14 +49,14 @@ attribute_list = ['Enchanter','Catcher','Juggernaut','Diver','Burst',
 'Battlemage','Artillery','Marksman','Assassin','Skirmisher','Vanguard',
 'Warden','Specialist']
 
-#convert samples into vector of champion counts
+#convert samples into vector of champion counts relative to enemy team
 def vectorize_champ(sample):
     champ_list = list(champ_dic.keys())
-    x = [0] * (len(champ_list) * 2)
+    x = [0] * len(champ_list)
     for champ in sample[:5]:
         x[champ_list.index(champ)] += 1
     for champ in sample[5:]:
-        x[len(champ_list) + champ_list.index(champ)] += 1
+        x[champ_list.index(champ)] -= 1
     return np.array(x)
 
 #convert samples (vector of length 10) into vector of attribute counts
