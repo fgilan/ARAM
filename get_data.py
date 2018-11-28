@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, SoupStrainer
 import csv
 import re
 
@@ -10,23 +10,27 @@ game_ids = set()
 #list of summoners already checked
 used_names = set()
 #counter to stop
-n_max = 1000
+n_max = 5000
 n_current = 0
-while (n_current < n_max) or names:
-    print(n_current)
-    n_current += 1
-    current_name = names.pop()
-    used_names.add(current_name)
-    url = "http://na.op.gg/summoner/userName=" + current_name
-    r = requests.get(url)
-    #Pass html to BeautifulSoup
-    soup = BeautifulSoup(r.text, 'lxml')
-    #Get source code for all games
-    games = soup.find_all(name='div', class_ = 'GameItemWrap')
 
-    #open csv file
-    with open('game_data_2.csv', 'a') as file:
-        writer = csv.writer(file, delimiter=',', lineterminator='\n')
+#open csv file
+with open('game_data_2.csv', 'a') as file:
+    writer = csv.writer(file, delimiter=',', lineterminator='\n')
+    while (n_current < n_max) or names:
+        print(n_current)
+        n_current += 1
+        #get summoner name and add to list of used
+        current_name = names.pop()
+        used_names.add(current_name)
+        #open summoner page
+        url = "http://na.op.gg/summoner/userName=" + current_name
+        r = requests.get(url)
+        #reduce to necessary part
+        strainer = SoupStrainer('div', {'class':'GameItemWrap'})
+        #Pass html to BeautifulSoup
+        soup = BeautifulSoup(r.text, 'lxml', parse_only=strainer)
+        #Get source code for all games
+        games = soup.find_all(name='div', class_ = 'GameItemWrap')
         for game in games:
             #Check if GameType is ARAM
             game_type = game.find(class_ = 'GameType').string
@@ -44,8 +48,10 @@ while (n_current < n_max) or names:
             #Victory or Defeat
             game_result = game.find(class_ = 'GameResult').string
             game_result = re.sub('\n|\t', '', game_result)
-            if game_result != 'Remake':
-                info.append(game_result)
+            #Games under a certain length are classified as remake; exclude these
+            if game_result == 'Remake':
+                continue
+            info.append(game_result)
             #Game Length in seconds
             game_length = game.find(class_ = 'GameLength').string
             game_length = re.sub('m|s', '', game_length)

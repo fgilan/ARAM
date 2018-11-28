@@ -55,7 +55,7 @@ def vectorize_champ(sample):
     x = [0] * len(champ_list)
     for champ in sample[:5]:
         x[champ_list.index(champ)] += 1
-    for champ in sample[5:]:
+    for champ in sample[5:10]:
         x[champ_list.index(champ)] -= 1
     return np.array(x)
 
@@ -68,7 +68,7 @@ def vectorize_attribute(sample):
         attribute = champ_dic[champ]
         x[attribute_list.index(attribute)] += 1
     #enemy champions
-    for champ in sample[5:]:
+    for champ in sample[5:10]:
         attribute = champ_dic[champ]
         x[attribute_list.index(attribute)] -= 1
     return np.array(x)
